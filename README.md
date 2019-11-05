@@ -7,3 +7,5 @@ It was very difficult to give material about Linux, in fact, I think there is li
 ## Git Collaboration
 https://github.com/AleksShapor/kottans-backend/blob/master/2.png?raw=true
 It’s already like the sport of “repetition of mother teaching”
+## Python Basics 1
+https://www.hackerrank.com/aleksshapor?hr_r=1
