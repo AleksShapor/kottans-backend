@@ -53,5 +53,10 @@ So, the difference between Text and Data memory segments is that the Text segmen
 7ffe2e4ac000-7ffe2e4cd000 rw-p 00000000 00:00 0                          [stack]
 7ffe2e50c000-7ffe2e50e000 r-xp 00000000 00:00 0                          [vdso]
 ffffffffff600000-ffffffffff601000 r-xp 00000000 00:00 0                  [vsyscall]
-{content}
 ```
+Heap - 01ddf000-01e21000
+Stack - 7ffe2e4ac000-7ffe2e4cd000
+Memory Mapping Segment - 7f6d1f5ec000-7f6d1f5f8000
+
+It was not easy, the most difficult thing for me was to get the output from the / proc command and put it on my repository, since it was impossible (CentOS) through a virtual machine, and I couldn’t connect to the server remotely because it itself was disconnected from the network. 
+And about the materials, nothing is clear, but very interesting!
