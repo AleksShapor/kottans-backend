@@ -10,14 +10,17 @@ It’s already like the sport of “repetition of mother teaching”
 ## Python Basics 1
 https://www.hackerrank.com/aleksshapor?hr_r=1
 ## Memory Management
-   - What's going to happen if program reaches maximum limit of stack ?
+   - add answers to the following questions:
+     - What's going to happen if program reaches maximum limit of stack ?
      If the maximum stack size has been reached, we have a stack overflow and the program receives a Segmentation Fault.
-    - What's going to happen if program requests a big (more then 128KB) memory allocation on heap ?
-     In Linux, if you request a large block of memory via malloc(), the C library will create such an anonymous mapping instead of using heap memory.
+     - What's going to happen if program requests a big (more then 128KB) memory allocation on heap ?
+      In Linux, if you request a large block of memory via malloc(), the C library will create such an anonymous mapping instead of using heap memory.
      - What's the difference between Text and Data memory segments ?
      The string lives in the text segment, which is read-only and stores all of your code in addition to tidbits like string literals.
      The data segment, on the other hand, holds the contents for static variables initialized in source code.
      So, the difference between Text and Data memory segments is that the Text segments you can only read and in Data memory segments you can read and write for saving static variables.
+
+     
 ```md
 00400000-004de000 r-xp 00000000 fd:00 50332975                           /usr/bin/bash
 006dd000-006de000 r--p 000dd000 fd:00 50332975                           /usr/bin/bash
