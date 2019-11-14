@@ -18,7 +18,7 @@ What's the difference between Text and Data memory segments ?
 The string lives in the text segment, which is read-only and stores all of your code in addition to tidbits like string literals.
 The data segment, on the other hand, holds the contents for static variables initialized in source code.
 So, the difference between Text and Data memory segments is that the Text segments you can only read and in Data memory segments you can read and write for saving static variables.
-{
+```
 00400000-004de000 r-xp 00000000 fd:00 50332975                           /usr/bi                                                                                                             n/bash
 006dd000-006de000 r--p 000dd000 fd:00 50332975                           /usr/bi                                                                                                             n/bash
 006de000-006e7000 rw-p 000de000 fd:00 50332975                           /usr/bi                                                                                                             n/bash
@@ -53,4 +53,5 @@ So, the difference between Text and Data memory segments is that the Text segmen
 7ffe2e4ac000-7ffe2e4cd000 rw-p 00000000 00:00 0                          [stack]
 7ffe2e50c000-7ffe2e50e000 r-xp 00000000 00:00 0                          [vdso]
 ffffffffff600000-ffffffffff601000 r-xp 00000000 00:00 0                  [vsysca                                                                                                             ll]
-}
+{content}
+```
