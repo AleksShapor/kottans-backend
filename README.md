@@ -19,7 +19,7 @@ The string lives in the text segment, which is read-only and stores all of your 
 The data segment, on the other hand, holds the contents for static variables initialized in source code.
 So, the difference between Text and Data memory segments is that the Text segments you can only read and in Data memory segments you can read and write for saving static variables.
 ```
-00400000-004de000 r-xp 00000000 fd:00 50332975                           /usr/bi                                                                                                             n/bash
+00400000-004de000 r-xp 00000000 fd:00 50332975                           /usr/bi                                                         n/bash
 006dd000-006de000 r--p 000dd000 fd:00 50332975                           /usr/bi                                                                                                             n/bash
 006de000-006e7000 rw-p 000de000 fd:00 50332975                           /usr/bi                                                                                                             n/bash
 006e7000-006ed000 rw-p 00000000 00:00 0
