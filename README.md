@@ -10,7 +10,7 @@ It’s already like the sport of “repetition of mother teaching”
 ## Python Basics 1
 https://www.hackerrank.com/aleksshapor?hr_r=1
 ## Memory Management
-     - What's going to happen if program reaches maximum limit of stack ?
+- What's going to happen if program reaches maximum limit of stack ?
      If the maximum stack size has been reached, we have a stack overflow and the program receives a Segmentation Fault.
      - What's going to happen if program requests a big (more then 128KB) memory allocation on heap ?
      In Linux, if you request a large block of memory via malloc(), the C library will create such an anonymous mapping instead of using heap memory.
@@ -18,8 +18,7 @@ https://www.hackerrank.com/aleksshapor?hr_r=1
      The string lives in the text segment, which is read-only and stores all of your code in addition to tidbits like string literals.
      The data segment, on the other hand, holds the contents for static variables initialized in source code.
      So, the difference between Text and Data memory segments is that the Text segments you can only read and in Data memory segments you can read and write for saving static variables.
-     
-```
+```md
 00400000-004de000 r-xp 00000000 fd:00 50332975                           /usr/bin/bash
 006dd000-006de000 r--p 000dd000 fd:00 50332975                           /usr/bin/bash
 006de000-006e7000 rw-p 000de000 fd:00 50332975                           /usr/bin/bash
@@ -55,9 +54,9 @@ https://www.hackerrank.com/aleksshapor?hr_r=1
 7ffe2e50c000-7ffe2e50e000 r-xp 00000000 00:00 0                          [vdso]
 ffffffffff600000-ffffffffff601000 r-xp 00000000 00:00 0                  [vsyscall]
 ```
-Heap - 01ddf000-01e21000
-Stack - 7ffe2e4ac000-7ffe2e4cd000
-Memory Mapping Segment - 7f6d1f5ec000-7f6d1f5f8000
+_Heap_ - `01ddf000-01e21000`
+_Stack_ - `7ffe2e4ac000-7ffe2e4cd000`
+_Memory Mapping Segment_ - `7f6d1f5ec000-7f6d1f5f8000`
 
 It was not easy, the most difficult thing for me was to get the output from the / proc command and put it on my repository, since it was impossible (CentOS) through a virtual machine, and I couldn’t connect to the server remotely because it itself was disconnected from the network. 
 And about the materials, nothing is clear, but very interesting!
